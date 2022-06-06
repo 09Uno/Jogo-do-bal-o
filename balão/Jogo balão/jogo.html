@@ -1,0 +1,59 @@
+<html lang="pt-br">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jogo</title>
+		<link rel="styleSheet" type="text/css" href="style.css" />
+
+		<script src="jogo.js"> </script>
+	</head>
+	<body onload="iniciarJogo()">
+		<main id="jogo">
+			<div id="telaJogo"">
+				
+				<table border="1" >
+					<tr class="tr">
+						<td class="balaoJogo">
+							<img src="imagens\balao_azul_grande.png" />
+						</td>
+						<td>
+							<span id="baloes_inteiros" > </span>
+						</td>
+					</tr>
+				</table>
+
+				<table border="1">
+					<tr class="balaoJogo">
+						<td class="balaoJogo">
+							<img src="imagens\balao_azul_grande_estourado.png" />
+						</td>
+						<td>
+							<span id="baloes_estourados" "> </span>
+						</td>
+					</tr>
+				</table>
+
+				<table border="1" style="width: 161px; height : 132px; ">
+					<tr class="balaoJogo">
+						<td id='id1' " >
+							<span id="cronometro" "> </span>
+						</td >
+					</tr>
+				</table>
+				<table border="1" style="width: 161px; height : 200px; ">
+					<tr class="balaoJogo">
+						<td id='id1' " >
+							<p>Estoure todos os balões antes do tempo acabar para ganhar o jogo</p>
+						</td >
+					</tr>
+				</table>
+
+			</div>
+
+			<div id="cenario"   > </div>
+		</main>
+	</body>
+</html>
+	
+

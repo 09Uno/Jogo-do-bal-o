@@ -1,0 +1,42 @@
+<html lang="pt-br" >
+	<head>
+		
+		<meta charset="utf-8" />
+		<title> Página inicial</title>
+		<link rel="StyleSheet" type="text/css" href="style.css" /> 
+		
+		<script type="text/javascript">
+			function valor(valor){
+
+				var nivel = valor;
+				return nivel;
+
+			}
+
+			function iniciarJogo(nivel){
+
+				var nivel_jogo = nivel;
+				alert("Você escolheu o nível: " + nivel_jogo);
+				window.location.href="jogo.html?" + nivel_jogo;
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+		<main id="menu">
+			<div id="opcoes">
+				
+					
+						<button class="nível" value="1" onclick="iniciarJogo(1)" >Nível Fácil</button>
+						<button class="nível" value="2" onclick="iniciarJogo(2)">Nível Médio</button>
+						<button class="nível" value="3" onclick="iniciarJogo(3)">Nível Dificil </button>
+				
+			</div>
+			<br />
+
+			
+		</main>
+	</body>
+</html>

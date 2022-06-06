@@ -1,0 +1,78 @@
+
+
+#menu{
+    width: 350px;
+    background-color:gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#nivel{
+    width: 100px;
+    height: 45px;
+    background-color: black;
+
+
+}
+.nível{
+    margin-top:11px ;
+    width: 98px;
+    height: 96px;
+    background-image: url('imagens/iniciar.png');
+    font-size: 25px;
+    margin-left: 11px;
+   
+}
+
+body{
+    background-color: rgb(206, 194, 194);
+}
+
+#jogo{
+    margin-left: 350px;
+}
+.balaoJogo{
+    width: 161px;
+    height: 75px;
+}
+#telaJogo{
+    float:left; 
+    width: auto; 
+    height: 500px ; 
+    background: rgb(153, 214, 161); 
+    border: solid 1px #a2a2a2;
+}
+#baloes_inteiros{
+    font-size: 40px;
+    width: 161px;
+}
+#baloes_estourados{
+    font-size: 40px;
+    width: 161px;
+    
+}
+#cronometro{
+    background: rgba(153, 214, 161); font-size: 30px;
+    width: 161px;
+
+}
+
+#id1{
+     background-color: rgba(153, 214, 161);  
+    text-align: center;
+    width: 162px;
+}
+#cenario{
+    float:letft ;	
+    width: 620px;
+    height: 500px;
+    background: url('imagens/fundo.png');
+    background-position: bottom; 
+}
+#telaJogo{
+    width: 161px;
+}
+td{
+    width: 139px;
+}
